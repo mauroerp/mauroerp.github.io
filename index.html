@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMNTL</title>
-
     <style>
         body {
             margin: 0;
             padding: 0;
-            background: #F1ECE4; /* cor exata extraída */
-            height: 100vh;
-            width: 100vw;
+            background-color: #28354F; /* fundo igual ao azul do logo */
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
         }
 
         img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain; /* ocupa o máximo possível sem distorcer */
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .slogan {
+            margin-top: 20px;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.85;
         }
     </style>
 </head>
 <body>
-    <img src="./logo.png" alt="LMNTL">
+    <img src="logo.png" alt="LMNTL Logo">
+
+    <div class="slogan">em breve</div>
 </body>
 </html>
